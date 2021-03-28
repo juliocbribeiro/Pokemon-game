@@ -1,0 +1,111 @@
+body {
+    background: rgb(12, 36, 56);
+    font: normal 15pt Arial;
+    
+    }
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+    
+#pic {
+   display: block;
+   margin: auto;
+   border-radius: 20px;
+}
+#inptxt {
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  margin: auto;
+
+}
+
+.check:hover{
+  background: #315e8a;
+  text-decoration: none;
+}
+.check {
+  font-size: 16px;
+  background: #1f3c58;
+    padding: 10px 10px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    width: 100px;
+    margin-left: 20px;
+    
+}
+
+a, a:visited, a:hover, a:active {
+    
+    color: white;
+    text-decoration: none;
+   
+  }
+  p {
+    display: block;
+    text-align: center;
+  }
+
+
+footer {
+  font-size: 16px;
+  margin-top: 80px;
+  color: rgb(158, 183, 236);
+  text-align: center;
+
+}
+
+/* media Queries ===============================================*/
+
+
+@media (max-width:480px) {
+  .page-title {
+     position: inherit;
+     
+  }
+}
+
+@media (max-width:480px) {
+  #pic {
+     width: 80%;
+     margin-bottom: 10px;
+     
+  }
+}
+
+@media (max-width:480px) {
+  .barra, .check {
+  display: flex;
+  flex-direction: column;  
+  text-align: center;   
+  align-items: center;
+  margin: auto;
+  }
+}
+
+@media (max-width:480px) {
+  #inptxt {
+  display: flex;
+  flex-direction: column;  
+  text-align: center;   
+  align-items: center;
+  margin-bottom:10px;
+  }
+}
+
+@media (max-width:480px) {
+  footer {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;  
+  text-align: justify;   
+  }
+}
+
